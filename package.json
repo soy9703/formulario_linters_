@@ -5,6 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
+    "build-dev": "webpack --mode=development ",
+    "build-prod": "webpack --mode=production",
     "start": "node server.js"
   },
   "keywords": [],
